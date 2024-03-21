@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: hsl(0, 0%, 8%);
+}
+
+.container{
+    width: 23%;
+    height: 75vh;
+    margin: 105px 601px 28px;
+    border-radius: 8px;
+    background-color: hsl(0, 0%, 12%);
+}
+
+.els{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 23px;
+    color: hsl(0, 0%, 100%);
+}
+
+.els img{
+    width: 90px;
+    border-radius: 55px;
+    margin-top: 40px;
+}
+
+.el1{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.el1 h2{
+    font-family:'inter';
+}
+
+.el1 span{
+    font-family: "inter";
+    font-size: 15px;
+    color: hsl(75, 94%, 57%);
+}
+
+.els span:nth-child(3){
+    font-family: "inter";
+    font-size: 15px;
+}
+
+.el2{
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+}
+.el2 a{
+    transition: all 1s ease-in-out;
+    font-family: "inter";
+    font-weight: 600;
+    padding: 12px 0;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 8px;
+    background-color: hsl(0, 0%, 20%);
+    color: white;
+}
+
+a:hover{
+    background-color:hsl(75, 94%, 57%);
+    color: black;
+    cursor: pointer;
+}
+
+.el2 a:nth-child(2){
+    padding: 12px 94px;
+}
+
+.challenge{
+    text-align: center;
+    color: white;
+}
+.challenge a{
+    color: rgb(194, 149, 149);
+}
+
+@media screen and (max-width:500px){
+    .container{
+        width: 90%;
+        height: 90vh;
+        margin: 23px;
+        border-radius: 8px;
+        background-color: hsl(0, 0%, 12%);
+    } 
+    
+    .challenge{
+        font-size: 12px;
+        text-align: center;
+        color: white;
+    }
+}
